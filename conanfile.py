@@ -2,7 +2,7 @@ from conans import ConanFile, CMake
 
 class libC(ConanFile):
     name = "libC"
-    version = "0.0"
+    version = "1.0"
 
     settings = "os", "arch", "compiler", "build_type"
     options = {"shared": [True, False]}
