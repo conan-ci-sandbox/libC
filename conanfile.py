@@ -30,3 +30,4 @@ class libC(ConanFile):
 
     def package_info(self):
         self.cpp_info.libs = ["libC",]
+
