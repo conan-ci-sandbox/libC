@@ -11,7 +11,7 @@ class libC(ConanFile):
     generators = "cmake"
 
     scm = {"type": "git",
-           "url": "auto",
+           "url": "https://github.com/conan-ci-cd-training/libC.git",
            "revision": "auto"}
 
     exports_sources = "LICENSE" # to avoid build info bug
