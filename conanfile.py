@@ -14,8 +14,6 @@ class libC(ConanFile):
            "url": "https://github.com/conan-ci-cd-training/libC.git",
            "revision": "auto"}
 
-    exports_sources = "LICENSE" # to avoid build info bug
-
     def requirements(self):
         self.requires("libA/1.0@mycompany/stable")
 
